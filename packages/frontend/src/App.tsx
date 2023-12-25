@@ -1,5 +1,6 @@
 import { Container, Header, Content, Footer, Navbar, Nav } from "rsuite";
 import { DefaultFooter } from "./Components/DefaultFooter/DefaultFooter";
+import CharacterAuthorizeIcon from "@rsuite/icons/CharacterAuthorize";
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
         <Header>
           <Navbar appearance="inverse">
             <Navbar.Brand>
-              <a style={{ color: "#fff" }}>Brand</a>
+              <a style={{ color: "#fff" }}>
+                <CharacterAuthorizeIcon style={{ fontSize: "2em", marginRight: 10 }} />
+              </a>
             </Navbar.Brand>
             <Nav>
               <Nav.Item>Home</Nav.Item>

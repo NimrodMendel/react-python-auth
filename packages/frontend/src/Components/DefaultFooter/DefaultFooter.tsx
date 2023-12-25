@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { FlexboxGrid } from "rsuite";
-import { IFooterTypes } from "../footerTypes";
+import { IFooterTypes } from "./footerTypes";
 
 export const DefaultFooter: React.FC<IFooterTypes> = ({ text }: { text: string }): ReactElement => {
   return (

@@ -1,4 +1,5 @@
 import { Container, Header, Content, Footer, Navbar, Nav } from "rsuite";
+import { DefaultFooter } from "./Components/DefaultFooter/DefaultFooter";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         </div>
 
         <Footer>
-          <h1>Footer</h1>
+          <DefaultFooter text="2024 - Nimrod Mendel" />
         </Footer>
       </Container>
     </>

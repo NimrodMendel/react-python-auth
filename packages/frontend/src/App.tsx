@@ -1,32 +1,14 @@
-import { Container, Header, Content, Footer, Navbar, Nav } from "rsuite";
+import { Container, Header, Content, Footer } from "rsuite";
 import { DefaultFooter } from "./Components/DefaultFooter/DefaultFooter";
-import CharacterAuthorizeIcon from "@rsuite/icons/CharacterAuthorize";
+import { DefaultNavbar } from "./Components/Navbar/DefaultNavbar";
+
 
 function App() {
   return (
     <>
       <Container>
         <Header>
-          <Navbar appearance="inverse">
-            <Navbar.Brand>
-              <a style={{ color: "#fff" }}>
-                <CharacterAuthorizeIcon style={{ fontSize: "2em", marginRight: 10 }} />
-              </a>
-            </Navbar.Brand>
-            <Nav>
-              <Nav.Item>Home</Nav.Item>
-              <Nav.Item>News</Nav.Item>
-              <Nav.Item>Products</Nav.Item>
-              <Nav.Menu title="About">
-                <Nav.Item>Company</Nav.Item>
-                <Nav.Item>Team</Nav.Item>
-                <Nav.Item>Contact</Nav.Item>
-              </Nav.Menu>
-            </Nav>
-            <Nav pullRight>
-              <Nav.Item>Settings</Nav.Item>
-            </Nav>
-          </Navbar>
+          <DefaultNavbar />
         </Header>
 
         <div style={{ border: "1px solid blue" }}>
